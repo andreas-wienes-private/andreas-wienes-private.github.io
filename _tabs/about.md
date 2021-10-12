@@ -11,24 +11,25 @@ order: 1
 ---
 
 
-### Hello 👋
+## Hello 👋
 
 My name is Andreas and I'm an Ethical Hacker. I love to learn new things every day and use my skills to test IT systems for security flaws and bugs. 
 
-🤓 Expertise
+### My Expertise
 - Penetration Testing
 - Web Application Security
 - AWS Cloud Security
 - IT Security Trainings
 - Threat Modelling
 
+### Get in Contact
 📫 You can contact me via
 - Twitter: <https://twitter.com/AndreasWienes>
 - Mail: mail \[at\] wienes \[dot\] com
 
 ## Badges
-#### Hack The Box
+### Hack The Box
 <script src="https://www.hackthebox.eu/badge/205798"></script>
 
-#### TryHackMe
+### TryHackMe
 <script src="https://tryhackme.com/badge/313718"></script>
