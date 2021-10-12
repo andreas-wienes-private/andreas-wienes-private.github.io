@@ -44,9 +44,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/andreaswienes      # change to your twitter homepage
-    - https://github.com/andreas-wienes-private       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://github.com/andreas-wienes-private       # change to your github homepage    
     - https://de.linkedin.com/in/andreas-wienes-24b31a3a
 
 google_site_verification: google_meta_tag_verification # change to your verification string
