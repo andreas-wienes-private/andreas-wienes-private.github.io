@@ -20,9 +20,9 @@ timezone: Europe/Berlin
 
 title: Andreas Wienes                          # the main title
 
-tagline: >
+tagline: |
   Hacker 
-  focused on web application & AWS cloud security   # it will display as the sub-title
+  focused on web application & AWS cloud security   
 
 description: >-                        # used by seo meta and the atom feed
   Digital Portfolio of Andreas Wienes
