@@ -8,7 +8,6 @@ pin: true
 toc: false
 ---
 
-If you're new here, why don't you check out the [[**about page**]](https://andreas-wienes-private.github.io/about-me/) to get to know me better?
+If you're new here, why don't you check out the [**about page**](https://andreas-wienes-private.github.io/about-me/) to get to know me better?
 
-You will find some general information about me as well as ways to contact me. 
-
+You will find some general information about me as well as ways to contact me.
