@@ -45,7 +45,7 @@ But I’ve learned even more from it:
 3. [**Virtual Hacking Labs**](https://www.virtualhackinglabs.com/) **is a great addition to the OSCP learning materials** and to the lab offered be Offensive Security. I’m sure that I only was able to pass the OSCP exam on my first approach, because I’ve spent an additional month to train my skills and methodology on VHL.
 4. Having the OSCP certification dosn’t mean everything in the world, but it helps a lot in finding a job (at least in Germany). — But the **OSCP is by far not the the end of your learning path**, it’s just one of the first steps.
 
-https://giphy.com/gifs/jon-snow-ygritte-you-know-nothing-NCTbhL8AG2s8g
+<iframe src="https://giphy.com/embed/NCTbhL8AG2s8g" width="480" height="192" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jon-snow-ygritte-you-know-nothing-NCTbhL8AG2s8g">via GIPHY</a></p>
 
 ## Becoming a Certified Ethical Hacker
 
