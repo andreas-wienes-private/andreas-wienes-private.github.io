@@ -1,5 +1,5 @@
 ---
-title: Why do I call myself a Hacker?
+title: Why I call myself a Hacker
 author: Andreas Wienes
 date: 2021-10-13 21:21:26 +0100
 categories: [HACKING]
