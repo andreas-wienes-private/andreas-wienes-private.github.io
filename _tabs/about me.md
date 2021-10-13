@@ -13,7 +13,7 @@ order: 1
 
 ## Hello 👋
 
-My name is Andreas and I'm a Hacker. I love to learn new things every day and use my skills to test IT systems for security flaws and bugs. 
+My name is **Andreas** and I'm a Hacker. I love to learn new things and use my skills to test IT systems for security flaws and bugs. I live in Hamburg, Germany and work at [OTTO](https://otto.tech) as Pentester.
 
 ### My Expertise
 - Penetration Testing
