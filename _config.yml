@@ -159,17 +159,12 @@ exclude:
   - node_modules
   - '*.json'
 
-# jekyll-archives:
-#   enabled: [categories, tags]
-#   layouts:
-#     category: category
-#     tag: tag
-#   permalinks:
-#     tag: /tags/:name/
-#     category: /categories/:name/
-
-
 jekyll-archives:
-  enabled: []
-  layouts:    
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
   permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
