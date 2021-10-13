@@ -1,12 +1,12 @@
 ---
-title: "What I’ve learned during my Rookie Year in Cyber Security"
-date: "2020-12-29 23:11:26 +0100"
-categories: 
-  - "cybersecurity"
+title: What I’ve learned during my Rookie Year in Cyber Security
+author: Andreas Wienes
+date: 2020-12-29 23:11:26 +0100
+categories: [lessons-learned]
 tags: 
   - "cybersecurity"
   - "infosec"
-  - "lessons-learned"
+toc: true
 ---
 
 ## My Starting Point
