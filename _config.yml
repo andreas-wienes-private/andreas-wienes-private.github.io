@@ -167,3 +167,9 @@ exclude:
 #   permalinks:
 #     tag: /tags/:name/
 #     category: /categories/:name/
+
+
+jekyll-archives:
+  enabled: []
+  layouts:    
+  permalinks:
