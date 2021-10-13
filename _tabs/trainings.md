@@ -1,5 +1,5 @@
 ---
-title: IT Security Trainings
+title: IT Security Training
 icon: fas fa-info
 order: 2
 ---
