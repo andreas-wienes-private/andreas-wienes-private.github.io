@@ -13,7 +13,7 @@ order: 1
 
 ## Hello 👋
 
-My name is Andreas and I'm an Ethical Hacker. I love to learn new things every day and use my skills to test IT systems for security flaws and bugs. 
+My name is Andreas and I'm a Hacker. I love to learn new things every day and use my skills to test IT systems for security flaws and bugs. 
 
 ### My Expertise
 - Penetration Testing
@@ -27,14 +27,15 @@ My name is Andreas and I'm an Ethical Hacker. I love to learn new things every d
 - Twitter: <https://twitter.com/AndreasWienes>
 - Mail: mail \[at\] wienes \[dot\] com
 
-## Badges
+## Professional Achievements
 
+![Certified Ethical Hacker](/assets/img/CEH_2E345519D3F7.png){: .left }{: width="200" height="200" }
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1da86fa7-a361-43c0-bf12-b8728050c664" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-![Certified Ethical Hacker](/assets/img/CEH_2E345519D3F7.png){: .left }
+**Pentester Academy Certified Cloud Security Professional (PACSP)**
 
-### Hack The Box
+#### Hack The Box
 <script src="https://www.hackthebox.eu/badge/205798"></script>
 
-### TryHackMe
+#### TryHackMe
 <script src="https://tryhackme.com/badge/313718"></script>
