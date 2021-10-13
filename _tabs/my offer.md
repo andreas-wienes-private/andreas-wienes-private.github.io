@@ -1,5 +1,5 @@
 ---
-title: My Offer for your Company
+title: My Offer
 icon: fas fa-info
 order: 2
 ---
