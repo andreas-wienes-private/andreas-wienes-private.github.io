@@ -6,9 +6,9 @@ order: 2
 
 ## Security Trainings
 
-I'm an expierenced trainer with a strong practical backgrund in IT security.
+I'm an experienced trainer with a strong practical background in IT security. 
 
-So if you are interested in 
+So if you are interested in hands-on...
 
 - Security Awareness Training
 - OWASP Top 10 Training

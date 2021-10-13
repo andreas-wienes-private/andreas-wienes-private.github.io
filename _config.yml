@@ -139,6 +139,8 @@ defaults:
 sass:
   style: compressed
 
+auto_ids: true 
+
 compress_html:
   clippings: all
   comments: all
