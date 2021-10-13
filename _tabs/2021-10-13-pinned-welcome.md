@@ -7,6 +7,6 @@ mermaid: true
 pin: true
 ---
 
-If you're new here, why don't you check out the [**About-Page**](/tabs/about/) to get to know me better?
+If you're new here, why don't you check out the [**About-Page**](https://andreas-wienes-private.github.io/tabs/about/) to get to know me better?
 
 You will find some general information about me as well as ways to contact me. 
