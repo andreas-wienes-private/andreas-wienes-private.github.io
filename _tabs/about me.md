@@ -26,6 +26,7 @@ My name is Andreas and I'm a Hacker. I love to learn new things every day and us
 📫 You can contact me via
 - Twitter: <https://twitter.com/AndreasWienes>
 - Mail: mail \[at\] wienes \[dot\] com
+- Xing: <https://www.xing.com/profile/Andreas_Wienes/cv>
 
 ## Professional Achievements
 
