@@ -4,7 +4,6 @@ author: Andreas Wienes
 date: 2020-12-29 23:11:26 +0100
 categories: [lessons-learned]
 tags: 
-  - "cybersecurity"
   - "infosec"
 toc: true
 ---
