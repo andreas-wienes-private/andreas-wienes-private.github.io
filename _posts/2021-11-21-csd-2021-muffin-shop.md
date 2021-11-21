@@ -1,7 +1,7 @@
 ---
 title: CSD 2021 Muffin Shop Write-Up
 author: Andreas Wienes
-date: 2021-11-20 18:11:26 +0100
+date: 2021-11-21 14:11:26 +0100
 categories: [ctf, writeup]
 tags: 
   - "infosec"
