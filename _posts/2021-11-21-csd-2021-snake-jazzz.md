@@ -242,6 +242,8 @@ to search for all files that contain *flag* in it's name and afterwards cat the 
 - Don't rely on simple ways such as len() to validate user input.
 - It's useful to understand the different behaviour of Python format() and replace()  
 - [book.hacktricks.xyz](https://book.hacktricks.xyz) is an awesome resource and always a look worth
+- [PortSwigger Academy](https://portswigger.net/web-security/server-side-template-injection) is a great reference to learn more about SSTI
+
 
 ## Acknowledgments
 

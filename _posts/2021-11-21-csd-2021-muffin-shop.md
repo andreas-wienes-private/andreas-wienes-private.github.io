@@ -157,6 +157,7 @@ And voilà we get the flag without using a lot of SSTI kung-fu.
 - When XSS and SQLi don't work, try SSTI
 - It's super useful to understand how  ```@requires_login``` in Python Flask works
 - [book.hacktricks.xyz](https://book.hacktricks.xyz) is an awesome resource and always a look worth
+- [PortSwigger Academy](https://portswigger.net/web-security/server-side-template-injection) is a great reference to learn more about SSTI
 
 ## Acknowledgments
 
