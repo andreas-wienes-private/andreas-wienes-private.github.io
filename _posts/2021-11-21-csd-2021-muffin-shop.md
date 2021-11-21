@@ -128,9 +128,7 @@ _Damn, that was smart._
 
 I tried this method on my own and entered 
 
-```PYTHON 
-{% set logged_in = true %}{% include 'flag.html' %}
-```
+```{% set logged_in = true %}{% include 'flag.html' %}```
 And voilà we get the flag without using a lot of SSTI kung-fu.  
 
 ![muffin-lexieia-flag](/assets/img/muffin-lexieia-flag.png)
