@@ -128,7 +128,7 @@ _Damn, that was smart._
 I tried this method on my own and entered 
 
 {% highlight python %}
-{% set logged_in = true %}{% include 'flag.html' %}
+{% s e t logged_in = true %}{% include 'flag.html' %}
 {% endhighlight %}
 
 
