@@ -16,7 +16,6 @@ This is a short write-up for one of the web security challenges called "Snake Ja
 
 If you are interested in a write-up for the Muffin Shop challenge, [you will find it here]({% post_url 2021-11-21-csd-2021-muffin-shop %}).
 
----
 
 ## Introduction
 
@@ -24,8 +23,6 @@ If you are interested in a write-up for the Muffin Shop challenge, [you will fin
 
 > **Goal:**
 > Can you prove that their snake technology is inferior to our human hacking skills?
-
----
 
 ## My Solution
 
@@ -53,11 +50,11 @@ Okay let's have a look into the source code of that page.
 ![snake-source](/assets/img/snake-source.png)
 
 
-There is a HTML comment it pointing us to the /source path.
+There is a HTML comment inside pointing us to the /source path.
 
 Let's have a look into /source.
 
-```
+
 {% highlight python %}
 from flask import Flask, render_template, request, render_template_string, Response
 
@@ -102,7 +99,7 @@ def source():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=1337)
 {% endhighlight %}
-```
+
 
 Know we know the routes of this Flask app: /source and / which will accept GET and POST HTTP request. No fuzzing with gobuster needed here and we have a small attack surface here. 
 
