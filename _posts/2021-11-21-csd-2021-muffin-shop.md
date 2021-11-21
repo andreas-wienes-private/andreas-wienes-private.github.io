@@ -74,7 +74,7 @@ We can use this methode to clean up the log file.
 
 _It seems like this challenge is litteraly screaming for some kind of log poisoning._
 
-From the source code we know that the app is using the Flask library. After a short visit of one my favorite websites [book.hacktricks.xyz](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python) I tried a Server Side Template Injection (SSTI) and entered {{7 * 7}} as the username.
+From the source code we know that the app is using the Flask library. After a short visit of one my favorite websites [book.hacktricks.xyz](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python) I tried a Server Side Template Injection (SSTI) and entered \{{7 * 7\}} as the username.
 
 ![muffin-ssti-input](/assets/img/muffin-ssti-input.png)
 
