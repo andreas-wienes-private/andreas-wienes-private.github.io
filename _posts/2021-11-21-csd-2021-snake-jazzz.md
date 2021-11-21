@@ -16,12 +16,16 @@ This is a short write-up for one of the web security challenges called "Snake Ja
 
 If you are interested in a write-up for the Muffin Shop challenge, [you will find it here]({% post_url 2021-11-21-csd-2021-muffin-shop %}).
 
+---
+
 ## Introduction
 
 > The federation of Rattlestar Ricklactica has developed a postcard creator for interdimensional visitors to greet their imperiors from far away. The almighty WAF protects the global treasury from adversaries. 
 
 > **Goal:**
 > Can you prove that their snake technology is inferior to our human hacking skills?
+
+---
 
 ## My Solution
 
