@@ -106,13 +106,11 @@ Know we know the routes of this Flask app: /source and / which will accept GET a
 
 Here is where the WAF obstacle is coming into our way:
 
-```
-{% highlight python %}
+```python
 for key in data.values():
         if len(key) >= 15:
             template = template.replace("TITLE_HERE", "HACKING DETECTED BY SNAKE WAF").replace("INFO_HERE", "HACKING DETECTED BY SNAKE WAF")
             return render_template_string(template)
-{% endhighlight %}
 ```
 
 Our input is limited to 15 characters. Everything longer than that will be replaced with the WAF notice. 
@@ -135,8 +133,7 @@ This is great cause now we are able to execute code. But there is still the limi
 
 Let's have another look into the source code and see how the input is handled.
 
-```
-{% highlight python %}
+```python
 info = """
         <h2>SsssSSSSSSSS SsSSSSSSSSS sssSSSSS {}</h2>
         <h4>{} SsssSSSSS SSsssSSSSS SsssSSSSS SSSSsssSSSSS SsssSSSSS sssS SSSS SssSSSSS sssSSSsssSS</h4>
@@ -144,7 +141,6 @@ info = """
     """.format( data["recipient"], data["sender"])
     template = template.replace("TITLE_HERE", data["title"]).replace("INFO_HERE", info)
     return render_template_string(template)
-{% endhighlight %}
 ```
 Okay, `format()` is used to put the values of the `recipient` and `sender` fields into the `info` string. But `title` is handled with `replace()`. 
 
@@ -152,7 +148,7 @@ What is the difference between format() and replace() ?
 
 It's time for a small example with Python.
 
-```
+```python
 print("This is a short text".replace("short", "very short"))
 # --> This is a very short text
 
@@ -162,8 +158,7 @@ print("This is {} text".format("very long"))
 
 Both methods will replace a string inside a given text. But what happens when we provide a list as argument for both methods?
 
-```
-{% highlight python %}
+```python
 myList = ['hello from inside the list']
 
 print("This is a {} text".format(myList))
@@ -171,30 +166,25 @@ print("This is a {} text".format(myList))
 
 print("This is a {} text".replace("short", myList))
 # --> TypeError: replace() argument 2 must be str, not list
-{% endhighlight %}
 ```
 
 As we can see here, replace() only accepts string arguments, whereas format() also allows list-type arguments.
 
 That's good to know cause what is the obstacle? The limit of 15 characters for the user input.
 
-```
-{% highlight python %}
+```python
 for key in data.values():
         if len(key) >= 15:
             template = template.replace("TITLE_HERE", "HACKING DETECTED BY SNAKE WAF").replace("INFO_HERE", "HACKING DETECTED BY SNAKE WAF")
             return render_template_string(template)
-{% endhighlight %}
 ```
 
 The pseudo WAF implented here is based on the len() method. So any input longer than 15 characters will be blocked. BUT what is the length of a Python list? It's the number of elements inside that that list. 
 
-```
-{% highlight python %}
+```python
 myList = ['hello from inside the list']
 print(len(myList))
 # --> 1
-{% endhighlight %}
 ```
 
 That means we can bypass the length limit by using list-type elements as input.
