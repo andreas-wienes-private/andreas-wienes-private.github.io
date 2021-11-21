@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://andreas-wienes-private.github.io'
 
 github:
-  username: andreas-wienes-private             # change to your github username
+  username: HackLikeDemons             # change to your github username
 
 twitter:
   username: andreaswienes            # change to your twitter username
@@ -42,7 +42,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/andreaswienes      # change to your twitter homepage
-    - https://github.com/andreas-wienes-private       # change to your github homepage    
+    - https://github.com/HackLikeDemons       # change to your github homepage    
     - https://de.linkedin.com/in/andreas-wienes-24b31a3a
 
 google_site_verification: google_meta_tag_verification # change to your verification string
