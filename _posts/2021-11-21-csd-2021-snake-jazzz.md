@@ -179,7 +179,7 @@ for key in data.values():
             return render_template_string(template)
 ```
 
-The pseudo WAF implented here is based on the len() method. So any input longer than 15 characters will be blocked. BUT what is the length of a Python list? It's the number of elements inside that that list. 
+The pseudo WAF implented here is based on the len() method. So any input longer than 15 characters will be blocked. BUT what is the length of a Python list? It's the number of elements inside that list. 
 
 ```python
 myList = ['hello from inside the list']
