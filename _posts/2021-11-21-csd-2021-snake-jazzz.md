@@ -52,7 +52,7 @@ Okay let's have a look into the source code of that page.
 
 There is a HTML comment inside pointing us to the /source path.
 
-Let's have a look into /source.
+After having a look into /source, we get this beautiful Python code.
 
 
 ```python
