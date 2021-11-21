@@ -55,7 +55,7 @@ There is a HTML comment inside pointing us to the /source path.
 Let's have a look into /source.
 
 
-{% highlight python %}
+```python
 from flask import Flask, render_template, request, render_template_string, Response
 
 app = Flask(__name__, static_url_path='/Static', static_folder='Static')
@@ -98,7 +98,8 @@ def source():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=1337)
-{% endhighlight %}
+```
+
 
 
 Know we know the routes of this Flask app: /source and / which will accept GET and POST HTTP request. No fuzzing with gobuster needed here and we have a small attack surface here. 
