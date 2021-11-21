@@ -146,7 +146,7 @@ Okay, `format()` is used to put the values of the `recipient` and `sender` field
 
 What is the difference between format() and replace() ?
 
-It's time for a small example with Python.
+It's time for a small experiment with Python.
 
 ```python
 print("This is a short text".replace("short", "very short"))
