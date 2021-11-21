@@ -161,5 +161,4 @@ And voilà we get the flag without using a lot of SSTI kung-fu.
 ## Acknowledgments
 
 Thanks a lot to Ostschweizer Fachhochschule for organizing this CTF event. 
-
 Thanks to Lexiea for sharing the smarter solution with us!
