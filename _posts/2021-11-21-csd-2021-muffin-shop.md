@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-In November 2021 I was part of a small team ('Tychologen') that took part in the Cyber Security Days 2021 thankfully organized by the Ostschweizer Fachhochschule.
+In November 2021 I was part of a small team ('Tychologen') that took part in the Cyber Security Days 2021 thankfully organized by the [Ostschweizer Fachhochschule](https://www.ost.ch/).
 
 This is a short write-up for one of the web security challenges called "Muffin Shop", which was rated with medium difficulty.
 
