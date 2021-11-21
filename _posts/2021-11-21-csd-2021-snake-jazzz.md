@@ -14,7 +14,7 @@ In November 2021 I was part of a small team ('Tychologen') that took part in the
 
 This is a short write-up for one of the web security challenges called "Snake Jazzzzz", which was rated with easy difficulty.
 
-If you are interested in a write-up for the Muffin Shop challenge, [you will find it here]({% post_url 2021-11-21-csd-2021-muffin-shop %}).
+If you are interested in a write-up for the Muffin Shop challenge, [you will find it here]({% post_url 2021-11-21-csd-2021-muffin-shop.md %}).
 
 ## Introduction
 
@@ -119,7 +119,7 @@ _Hmm..._
 
 At this point I've tried to inject some JavaScript code by concatenating the strings from the different input fields, but had no luck doing this.
 
-But from another challenge ( [Muffin Shop]({% post_url% 2021-11-21-csd-2021-muffin-shop }) ), which was part of the Cybersecurity Day 2021 CTF , I allready knew about Server Side Template Injection ([SSTI](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python)) in applications that uses Python Flask and miss proper input validation.
+But from another challenge ( [Muffin Shop]({% post_url 2021-11-21-csd-2021-muffin-shop.md %}) ), which was part of the Cybersecurity Day 2021 CTF , I allready knew about Server Side Template Injection ([SSTI](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python)) in applications that uses Python Flask and miss proper input validation.
 
 So let's try the same thing here.
 
