@@ -87,3 +87,7 @@ _So what's next?_
 [book.hacktricks.xzy](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#jinja2-python) also contains some examples on how to exploit this vulnerability to achieve Remote Code Execution (RCE).
 
 I've used 
+{% highlight python %}
+'{{config.__class__.__init__.__globals__['os'].popen('la -al').read()}}'
+{% endhighlight %}
+to list the content of the current direcory.
