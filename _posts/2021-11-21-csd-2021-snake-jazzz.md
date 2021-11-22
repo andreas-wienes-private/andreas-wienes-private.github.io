@@ -164,7 +164,7 @@ myList = ['hello from inside the list']
 print("This is a {} text".format(myList))
 # --> This is a ['hello from inside the list'] text
 
-print("This is a {} text".replace("short", myList))
+print("This is a short text".replace("short", myList))
 # --> TypeError: replace() argument 2 must be str, not list
 ```
 
