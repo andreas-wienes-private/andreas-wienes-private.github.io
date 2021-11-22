@@ -102,7 +102,7 @@ if __name__ == "__main__":
 
 
 
-Know we know the routes of this Flask app: /source and / which will accept GET and POST HTTP request. No fuzzing with gobuster needed here and we have a small attack surface here. 
+Now we know the routes of this Flask app: /source and / which will accept GET and POST HTTP request. No fuzzing with gobuster needed here and we have a small attack surface here. 
 
 Here is where the WAF obstacle is coming into our way:
 
