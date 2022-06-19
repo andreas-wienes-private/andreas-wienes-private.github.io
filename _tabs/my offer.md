@@ -15,7 +15,7 @@ So if you are interested in hands-on...
 - AWS Cloud Security Training 
 - Live Hacking Demonstrations
 
-for you or your company, don't hesitate to [get in contact](https://andreas-wienes-private.github.io/about-me/#get-in-contact) with me.
+for you or your company, don't hesitate to [get in contact](https://andreas-wienes.me/about-me/#get-in-contact) with me.
 
 All trainings will be held in German language.
 
