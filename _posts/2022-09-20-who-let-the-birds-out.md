@@ -60,5 +60,5 @@ This is what I got in response:
 
 So please as a company use the security.txt or start a bug bounty program to make reporting security findings easier. 
 
-Thanks for reading and thanks a lot to [https://twitter.com/Zyberum](https://twitter.com/Zyberum) for the inspiration for this little experiment.
+Thanks for reading and thanks a lot to [@Zyberum](https://twitter.com/Zyberum) for the inspiration for this little experiment.
 
