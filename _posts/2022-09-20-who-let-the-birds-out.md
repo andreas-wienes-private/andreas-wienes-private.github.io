@@ -29,7 +29,7 @@ The first one is used to get a list of all birds within a specific radius and th
 
 Sounds great, eh?
 
-What would happen if someone would try let more than one Bird chirp?
+What would happen if someone would try to let more than one bird scooter chirp?
 
 Well, there is nothing stopping you from trying to do this.
 
