@@ -16,7 +16,10 @@ And they are easy to get. You just need to open the nice looking mobile app, fin
 
 Just in case you can't find the desired bird for some reason you are also able to use a nice little feature to let the bird chirp. Making some kind of noice and blinking lights to help you with a little orientation, when it's dark outside. 
 
-## What's wrong here?
+ {% youtube "https://www.youtube.com/watch?v=ho8-vK0L1_8" %}
+
+
+## Let's have some fun
 
 Analyzing the network traffic between the Bird mobile app and the Bird servers shows two interesting API endpoints that are used to help you getting your next ride.
 
