@@ -29,7 +29,7 @@ The first one is used to get a list of all birds within a specific radius and th
 
 Sounds great, eh?
 
-What what would happen if someone would try let more than one Bird chirp?
+What would happen if someone would try let more than one Bird chirp?
 
 Well, there is nothing stopping you from trying to do this.
 
@@ -60,5 +60,5 @@ This is what I got in response:
 
 So please as a company use the security.txt or start a bug bounty program to make reporting security findings easier. 
 
-Thanks for reading and thanks a lot to [@Zyberum](https://twitter.com/Zyberum) for the inspiration for this little experiment.
+Thanks for reading and thanks a lot to [@Zyberum](https://twitter.com/Zyberum) for the inspiration for this little fnord experiment.
 
