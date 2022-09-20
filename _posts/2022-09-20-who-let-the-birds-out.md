@@ -12,12 +12,12 @@ toc: true
 
 Bird e-scooters are becoming more and more popular in bigger cities. And despite the fact that they are laying around like pieces of ugly looking electronic trash, they are sometimes  actually quite useful. 
 
+![bird_twitter](/assets/img/bird_trash.jpeg)
+
 And they are easy to get. You just need to open the nice looking mobile app, find a bird nearby and then finally book it. That's it. - Enjoy your ride!
 
 Just in case you can't find the desired bird for some reason you are also able to use a nice little feature to let the bird chirp. Making some kind of noice and blinking lights to help you with a little orientation, when it's dark outside. 
-
- {% youtube "https://www.youtube.com/watch?v=ho8-vK0L1_8" %}
-
+ 
 
 ## Let's have some fun
 
@@ -33,7 +33,8 @@ What what would happen if someone would try let more than one Bird chirp?
 
 Well, there is nothing stopping you from trying to do this.
 
- ---- video here ----
+[Here is a short demonstration](https://www.youtube.com/watch?v=hAcBdksJkbk&ab_channel=HackLikeDemons) (a click will open YouTube)
+ 
 
 Imagine someone would add different locations, where a lot of Birds are located, into this [proof of concept](https://github.com/HackLikeDemons/let_the_birds_chirp).
 Imagine someone would set the radius to a very high number and put all of this into an infite loop... Ooops. 
