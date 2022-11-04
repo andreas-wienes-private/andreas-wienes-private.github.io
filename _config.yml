@@ -20,7 +20,7 @@ timezone: Europe/Berlin
 
 title: Andreas Wienes                          # the main title
 
-tagline: "Hacker\n - focused on web application & AWS cloud security"   
+tagline: "Hacker\n - Learner, CTF-Player, Bug Bounty Hunter"   
 
 description: >-                        # used by seo meta and the atom feed
   Digital Portfolio of Andreas Wienes
@@ -43,7 +43,6 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/andreaswienes      # change to your twitter homepage
     - https://github.com/HackLikeDemons       # change to your github homepage    
-    - https://de.linkedin.com/in/andreas-wienes-24b31a3a
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
@@ -78,7 +77,7 @@ theme_mode:   dark
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/andreas_wienes_2021_400x400.jpg'
+avatar: '/assets/img/andreas_wienes.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
