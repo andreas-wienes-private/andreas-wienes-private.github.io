@@ -11,7 +11,9 @@ My name is **Andreas** and I'm a [Hacker]({% post_url 2021-10-13-why-I-call-myse
 
 ### My Expertise
 - Penetration Testing
+- Bug Bounty Hunting
 - Web Application Security
+- Mobile Application Security (Android)
 - AWS Cloud Security
 - IT Security Trainings
 - Threat Modelling
