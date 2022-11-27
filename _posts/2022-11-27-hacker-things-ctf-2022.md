@@ -11,7 +11,7 @@ toc: true
 
 ![hacker_things_ctf_2022](/assets/img/Welcome-to-Hacker-Things-2022.jpeg)
 
-Am 26. November 2022 hat der Hacker Things CTF stattgefunden. Für mich persönlich war es das dritte Capture the Flag Event in diesem Jahr. Es war mein erstes Onsite-CTF und die weite Anreise von Hamburg nach Bonn hat sich gelohnt.
+Am 26. November 2022 hat der **Hacker Things CTF** stattgefunden. Für mich persönlich war es das dritte Capture the Flag Event in diesem Jahr. Allerdings war es auch mein erstes Onsite-CTF. Die weite Anreise von Hamburg nach Bonn hat sich aber durchaus gelohnt.
 
 Die Veranstaltung wurde vom Team rund um Andreas und Moritz von [Laokoon SecurITy](https://laokoon-security.com/) in Zusammenarbeit mit CGI organisiert und vom SANS Institute, Hack The Box und IBM gesponsert. 
 
