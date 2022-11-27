@@ -19,7 +19,7 @@ Niels und seine KollegInnen haben mit der modern gestalteten IBM Garage for Defe
 
 Gespielt wurde im weitverbreitetem Jeopardy-Style und die von Hack The Box bereitgestellten Challenges waren wie erwartet von bester Qualität. 
 
-Insgesamt gab es 63 TeilnehmerInnen, die in Teams aus bis zu drei Personen ihr Können in den folgenden Kategorien beweisen.
+Insgesamt gab es 63 TeilnehmerInnen, die in Teams aus bis zu drei Personen ihr Können in den folgenden Kategorien beweisen konnten.
 
 1.  OSINT
 2.  MISC
@@ -37,7 +37,7 @@ Den zweiten Platz hat sich Team FluxFingers verdient, gefolgt vom CTF-Team der T
 
 ![hacker_things_ctf_2022_scoring](/assets/img/hacker_things_ctf_2022_scoring.png)
 
-Ab 20 Uhr ging es nach der Siegerehrung zu einem fröhlichem Get-Together über. In entspannter Atmosphäre bot sich bei Pizza, Mate, Kuchen und Bier die Gelegenheit neue Kontakte zu knüpfen. Hier konnte man sich über die CTF-Challenges und andere Themen austauschen und es wurde viel miteinander gelacht. 
+Ab 20 Uhr ging es nach der Siegerehrung zu einem fröhlichen Get-Together über. In entspannter Atmosphäre bot sich bei Pizza, Mate, Kuchen und Bier die Gelegenheit neue Kontakte zu knüpfen. Hier konnte man sich über die CTF-Challenges und andere Themen austauschen und es wurde viel miteinander gelacht. 
 
 Für mich persönlich stellte sich spätestens jetzt das angenehme Gefühl einer offenen Community ein. Es war ein Zusammentreffen von freundlichen Menschen, die sich für IT-Security begeistern und ihre Erfahrungen bereitwillig austauschen. Frei von Rivalität oder Vorurteilen.
 
