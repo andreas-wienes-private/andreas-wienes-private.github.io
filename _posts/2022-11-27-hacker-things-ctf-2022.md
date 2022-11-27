@@ -37,11 +37,11 @@ Den zweiten Platz hat sich Team FluxFingers verdient, gefolgt vom CTF-Team der T
 
 ![hacker_things_ctf_2022_scoring](/assets/img/hacker_things_ctf_2022_scoring.png)
 
-Ab 20 Uhr ging es nach der Siegerehrung zu einem fröhlichem Get-Together über. In entspannter Atmosphäre bot sich bei Pizza, Mate, Kuchen und Bier die Gelegenheit neue Kotakte zu knüpfen. Hier konnte man sich über die CTF-Challenges und andere Themen austauschen und es wurde viel miteiander gelacht. 
+Ab 20 Uhr ging es nach der Siegerehrung zu einem fröhlichem Get-Together über. In entspannter Atmosphäre bot sich bei Pizza, Mate, Kuchen und Bier die Gelegenheit neue Kontakte zu knüpfen. Hier konnte man sich über die CTF-Challenges und andere Themen austauschen und es wurde viel miteinander gelacht. 
 
 Für mich persönlich stellte sich spätestens jetzt das angenehme Gefühl einer offenen Community ein. Es war ein Zusammentreffen von freundlichen Menschen, die sich für IT-Security begeistern und ihre Erfahrungen bereitwillig austauschen. Frei von Rivalität oder Vorurteilen.
 
-Ein großes Dankeschön an die Organisatoren für ihre tolle Arbeit, den reibungslosen Ablauf sowie die angenehme Atmosphäre. Ich freue mich schon auf eine erneute Teilnahme im kommenden Jahr.
+**Ein großes Dankeschön an die Organisatoren für ihre tolle Arbeit, den reibungslosen Ablauf sowie die angenehme Atmosphäre. Ich freue mich schon auf eine erneute Teilnahme im kommenden Jahr.**
 
 ---
 
