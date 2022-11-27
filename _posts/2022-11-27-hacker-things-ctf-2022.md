@@ -19,7 +19,7 @@ Niels und seine KollegInnen haben mit der modern gestalteten IBM Garage for Defe
 
 Gespielt wurde im weitverbreitetem Jeopardy-Style und die von Hack The Box bereitgestellten Challenges waren wie erwartet von bester Qualität. 
 
-Innerhalb von sechs Stunden konnten die aus bis zu drei Personen bestehenden Teams ihr Können in den folgenden Kategorien beweisen.
+Insgesamt gab es 63 TeilnehmerInnen, die in Teams aus bis zu drei Personen ihr Können in den folgenden Kategorien beweisen.
 
 1.  OSINT
 2.  MISC
@@ -31,7 +31,11 @@ Innerhalb von sechs Stunden konnten die aus bis zu drei Personen bestehenden Tea
 8.  PWN
 9.  REVERSING
 
-Die maximale Punktzahl hat der 23 jährige [Dragos Albastroiu](https://adragos.ro/about/) im Alleingang mit 14 Flags erreicht und sich damit den 1. Platz gesichert. Dragos darf sich nun über die Teilnahme an einer SANS-Schulung freuen und sein Wissen noch weiter vertiefen. 
+Nach sechs Stunden hat der 23 jährige [Dragos Albastroiu](https://adragos.ro/about/) im Alleingang mit 14 Flags die maximale Punktzahl erreicht und sich damit den 1. Platz gesichert. Dragos darf sich nun über die Teilnahme an einer SANS-Schulung freuen und sein Wissen noch weiter vertiefen. 
+
+Den zweiten Platz hat sich Team FluxFingers verdient, gefolgt vom CTF-Team der TU Darmstadt auf Platz drei.
+
+![hacker_things_ctf_2022_scoring](hacker_things_ctf_2022_scoring.png)
 
 Ab 20 Uhr ging es nach der Siegerehrung zu einem fröhlichem Get-Together über. In entspannter Atmosphäre bot sich bei Pizza, Mate, Kuchen und Bier die Gelegenheit neue Kotakte zu knüpfen. Hier konnte man sich über die CTF-Challenges und andere Themen austauschen und es wurde viel miteiander gelacht. 
 
