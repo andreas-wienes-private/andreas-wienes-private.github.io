@@ -13,6 +13,7 @@ toc: true
 Bird e-scooters are becoming more and more popular in bigger cities. And despite the fact that they are laying around like pieces of ugly looking electronic trash, they are sometimes  actually quite useful. 
 
 ![bird_twitter](/assets/img/bird_im_wald.jpg)
+![broken_voi_scooter](/assets/img/Broken-Voi-Scooter.jpeg)
 
 And they are easy to get. You just need to open the nice looking mobile app, find a bird nearby and then finally book it. That's it. - Enjoy your ride!
 
