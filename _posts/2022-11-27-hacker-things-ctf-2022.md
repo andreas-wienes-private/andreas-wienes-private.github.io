@@ -39,13 +39,12 @@ Für mich persönlich stellte sich spätestens jetzt das angenehme Gefühl einer
 
 Ein großes Dankeschön an die Organisatoren für ihre tolle Arbeit, den reibungslosen Ablauf sowie die angenehme Atmosphäre. Ich freue mich schon auf eine erneute Teilnahme im kommenden Jahr.
 
-
 ---
 
 Weiterführende Links:
 
 - [Offizielle Event-Website](https://laokoon-security.com/ctf2022/)
 - [Beitrag vom WDR](https://www1.wdr.de/nachrichten/hacker-wettbewerb-bonn-100.html)
-- [Event auf CTF-Time]((https://ctftime.org/event/1782) )
+- [Event auf CTF-Time](https://ctftime.org/event/1782)
 
 
