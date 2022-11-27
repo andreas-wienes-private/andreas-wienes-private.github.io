@@ -35,7 +35,7 @@ Nach sechs Stunden hat der 23 jährige [Dragos Albastroiu](https://adragos.ro/ab
 
 Den zweiten Platz hat sich Team FluxFingers verdient, gefolgt vom CTF-Team der TU Darmstadt auf Platz drei.
 
-![hacker_things_ctf_2022_scoring](hacker_things_ctf_2022_scoring.png)
+![hacker_things_ctf_2022_scoring](/assets/img/hacker_things_ctf_2022_scoring.png)
 
 Ab 20 Uhr ging es nach der Siegerehrung zu einem fröhlichem Get-Together über. In entspannter Atmosphäre bot sich bei Pizza, Mate, Kuchen und Bier die Gelegenheit neue Kotakte zu knüpfen. Hier konnte man sich über die CTF-Challenges und andere Themen austauschen und es wurde viel miteiander gelacht. 
 
