@@ -1,7 +1,7 @@
 ---
-title: Building a Smart Home Energy Monitoring System - My Journey with Docker, InfluxDB, and Grafana
+title: Building a Smart Home Energy Monitoring System
 author: Andreas Wienes
-date: 2023-05-23 - 20:25:26 +0100
+date: 2023-05-23 - 19:25:26 +0100
 categories: [SMARTHOME]
 tags: 
   - "smarthome", "home automation", "renewable energy"
