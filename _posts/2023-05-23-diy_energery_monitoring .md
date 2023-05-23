@@ -4,7 +4,9 @@ author: Andreas Wienes
 date: 2023-05-23 - 19:25:26 +0100
 categories: [SMARTHOME]
 tags: 
-  - "smarthome", "home automation", "renewable energy"
+  - "smarthome"
+  - "home automation"
+  - "renewable energy"
 toc: true
 ---
 

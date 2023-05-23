@@ -23,6 +23,7 @@ My name is **Andreas** and I'm a [Hacker]({% post_url 2021-10-13-why-I-call-myse
 - Mastodon: <https://infosec.exchange/@HackLikeDemons>
 - Mail: mail \[at\] wienes \[dot\] com
 - Twitter: <https://twitter.com/AndreasWienes>
+- LinkedIn: <https://www.linkedin.com/in/andreas-wienes-2b8a23258/>
 
 ## Professional Achievements
 
