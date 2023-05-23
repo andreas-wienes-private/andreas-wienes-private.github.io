@@ -1,10 +1,12 @@
 ---
 title: Building a Smart Home Energy Monitoring System
 author: Andreas Wienes
-date: 2022-09-20 - 16:25:26 +0100
-categories: [HACKING]
+date: 2023-05-23 - 19:25:26 +0100
+categories: [SMARTHOME]
 tags: 
-  - "infosec"
+  - "smarthome"
+  - "home automation"
+  - "renewable energy"
 toc: true
 ---
 
