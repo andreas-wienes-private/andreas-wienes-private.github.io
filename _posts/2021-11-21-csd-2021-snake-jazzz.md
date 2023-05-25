@@ -2,7 +2,7 @@
 title: CSD 2021 Snake Jazzzzz Write-Up
 author: Andreas Wienes
 date: 2021-11-21 18:11:26 +0100
-categories: [ctf, writeup]
+categories: [CTF]
 tags: 
   - "infosec"
   - "ctf"

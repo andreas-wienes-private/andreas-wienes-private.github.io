@@ -2,7 +2,7 @@
 title: Recap - Hacker Things CTF 2022
 author: Andreas Wienes
 date: 2022-11-27 14:51:26 +0100
-categories: [ctf]
+categories: [CTF]
 tags: 
   - "infosec"
   - "ctf"

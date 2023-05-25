@@ -2,7 +2,7 @@
 title: Bedrohungsanalyse - Eine kurze Einführung in das Threat Modeling
 author: Andreas Wienes
 date: 2023-05-24 - 19:25:26 +0100
-categories: [Security]
+categories: [SECURITY]
 tags: 
   - "Threat Modeling"
 toc: true
