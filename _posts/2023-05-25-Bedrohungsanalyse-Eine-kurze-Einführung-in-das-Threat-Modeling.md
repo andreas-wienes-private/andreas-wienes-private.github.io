@@ -66,4 +66,4 @@ das Risiko von Sicherheitsverletzungen minimieren.
 Die Anwendung einer Bedrohungsanalyse kann auf verschiedene Bereiche wie Webanwendungen, Netzwerke oder physische Einrichtungen angewendet werden. 
 
 
-[Jetzt Kontakt zum Autoren aufnehmen](https://andreas-wienes.me/about-me/)
+[Jetzt den Autor kontaktieren](https://andreas-wienes.me/about-me/)
