@@ -1,5 +1,5 @@
 ---
-title: Bedrohungsanalyse - Eine kurze Einführung in das Threat Modeling
+title: YesWeHack - Live Bug Bounty at Nullcon Berlin 2023
 author: Andreas Wienes
 date: 2023-05-14 - 20:25:26 +0100
 categories: [SECURITY]
