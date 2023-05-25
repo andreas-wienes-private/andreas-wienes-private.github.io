@@ -12,19 +12,19 @@ In unserer vernetzten Welt sind Unternehmen und Organisationen zunehmend der Gef
 
 ![what_could_go_wrong](/assets/img/what_could_go_wrong.png)
 
-## Vorteile
+## Vorteile des Threat Modelings
 
 Die Durchführung einer Bedrohungsanalyse bietet eine Reihe von Vorteilen für die Absicherung eines Systems. Dies sind die wichtigsten:
 
-1. Risikominderung: Durch die Identifizierung potenzieller Bedrohungen können Schwachstellen in einem System frühzeitig erkannt werden, noch bevor sie von Angreifern ausgenutzt werden können.
+1. **Risikominderung**: Durch die Identifizierung potenzieller Bedrohungen können Schwachstellen in einem System frühzeitig erkannt werden, noch bevor sie von Angreifern ausgenutzt werden können.
     
-2. Kosteneffizienz: Eine rechtzeitige Identifizierung von Schwachstellen und die Implementierung entsprechender Gegenmaßnahmen sind kosteneffizienter als die spätere Behebung von Sicherheitslücken oder der Umgang mit den Folgen eines Sicherheitsvorfalls.
+2. **Kosteneffizienz**: Eine rechtzeitige Identifizierung von Schwachstellen und die Implementierung entsprechender Gegenmaßnahmen sind kosteneffizienter als die spätere Behebung von Sicherheitslücken oder der Umgang mit den Folgen eines Sicherheitsvorfalls.
    
-3. Eine Bedrohungsanalyse trägt auch zur Priorisierung von Sicherheitsmaßnahmen bei, sodass Ressourcen effizient eingesetzt werden können.
+3. Eine Bedrohungsanalyse trägt auch zur **Priorisierung** von Sicherheitsmaßnahmen bei, sodass Ressourcen effizient eingesetzt werden können.
 
-## Wofür eignet sich eine Bedrohungsanalyse?  
+## Für welche Systeme eignet sich eine Bedrohungsanalyse?  
 
-Eine Bedrohungsanalyse eignet sich für alle Arten von Systemen und Anwendungen. Ob es sich um Webanwendungen, Netzwerke, mobile Apps oder IoT-Geräte handelt, das **Threat Modeling** bietet eine strukturierte Methode, um potenzielle Bedrohungen zu identifizieren und effektive Sicherheitsmaßnahmen zu entwickeln.
+Eine Bedrohungsanalyse eignet sich für alle Arten von Systemen und Anwendungen. Ob es sich um Webanwendungen, Netzwerke, mobile Apps oder IoT-Geräte handelt, das **Threat Modeling bietet eine strukturierte Methode, um potenzielle Bedrohungen zu identifizieren und effektive Sicherheitsmaßnahmen zu entwickeln**.
 
 Neben digitalen Systemen kann eine Bedrohungsanalyse auch zur Bewertung der physischen Sicherheit eines Standorts oder einer Einrichtung eingesetzt werden.
 
