@@ -23,12 +23,12 @@ All trainings will be conducted in German or English, ensuring clear and effecti
 
 Don't miss this opportunity to enhance your IT security knowledge and skills. Contact me today to discuss your specific training requirements and schedule a session tailored to your needs. Let's empower you and your team to face the ever-evolving landscape of cyber threats with confidence.
 
-Don't hesitate to [get in contact](https://andreas-wienes.me/about-me/#get-in-contact) with me.
+Just [get in contact](https://andreas-wienes.me/about-me/#get-in-contact) to discuss your specific requirements.
 
 ## Threat Modeling
 Hackers have a special perspective on your IT infrastructure. That's why I offer a specialized workshop on **Threat Modeling**. By adopting the viewpoint of a hacker, I will guide you through the process of identifying potential risks in your company's IT infrastructure. Together, we will develop strategies to mitigate these risks, enhancing your organization's overall security posture.
 
-Just [get in contact](https://andreas-wienes.me/about-me/#get-in-contact).
+
 
 ## Penetration Testing
 
