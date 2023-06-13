@@ -1,7 +1,7 @@
 ---
-title: "Sicherheit von Anfang an: Die entscheidende Rolle von Bedrohungsanalysen in der Softwareentwicklung"
+title: Sicherheit von Anfang an Die entscheidende Rolle von Bedrohungsanalysen in der Softwareentwicklung
 author: Andreas Wienes
-date: 2023-06-13 - 20:25:26 +0100
+date: 2023-06-13 - 19:25:26 +0100
 categories: [SECURITY]
 tags: 
   - "Threat Modeling"
