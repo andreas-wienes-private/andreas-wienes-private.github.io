@@ -1,7 +1,7 @@
 ---
-title: Sicherheit von Anfang an Die entscheidende Rolle von Bedrohungsanalysen in der Softwareentwicklung
+title: "Sicherheit von Anfang an: Die entscheidende Rolle von Bedrohungsanalysen in der Softwareentwicklung"
 author: Andreas Wienes
-date: 2023-06-13 - 19:25:26 +0100
+date: 2023-06-13 - 20:25:26 +0100
 categories: [SECURITY]
 tags: 
   - "Threat Modeling"
@@ -24,10 +24,8 @@ Der SDLC (Software Development Life Cycle) ist ein strukturierter Ansatz für di
 ## In welcher Phase des SDLC sollte eine Bedrohungsanalyse stattfinden?
 **Eine Bedrohungsanalyse sollte  frühzeitig im Entwicklungsprozess, idealerweise in der Designphase des SDLC, durchgeführt werden.** Dies ermöglicht es, potenzielle Sicherheitslücken frühzeitig zu erkennen und Sicherheitsmechanismen in das Design der Anwendung zu integrieren. Eine rechtzeitig durchgeführte Bedrohungsanalyse hilft dabei, kostenintensive Nachbesserungen zu vermeiden und das Risiko unentdeckter Sicherheitslücken zu verringern.
 
-
 ## Was kann passieren, wenn man eine Bedrohungsanalyse erst später im SDLC durchführt?
 
 Wenn eine Bedrohungsanalyse erst spät im SDLC oder sogar nach der Implementierungsphase durchgeführt wird, besteht die Gefahr, dass Sicherheitsrisiken und Schwachstellen übersehen werden. Das Beheben dieser Lücken in späteren Phasen erfordert mehr Ressourcen und Zeit, da möglicherweise umfangreiche Änderungen am Design oder an der Implementierung erforderlich sind. 
-
 
 [Sind Sie neugierig auf das Thema Bedrohungsanalyse geworden? Dann kontaktieren Sie mich jetzt!](https://andreas-wienes.me/about-me/)
