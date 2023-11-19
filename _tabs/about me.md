@@ -7,7 +7,7 @@ order: 1
 
 ## Hello 👋
 
-My name is **Andreas** and I'm a [Hacker]({% post_url 2021-10-13-why-I-call-myself-a-hacker %}). I love to learn new things and use my skills to test IT systems for security flaws and bugs. I live in Hamburg, Germany and work at [OTTO](http://otto.tech) as a senior security analyst.
+My name is **Andreas** and I'm a [Hacker]({% post_url 2021-10-13-why-I-call-myself-a-hacker %}). I love to learn new things and use my skills to test IT systems for security flaws and bugs. I live in Hamburg, Germany and work at Hamburg Wasser as a cyber security engineer.
 
 ### My Expertise
 - Penetration Testing
