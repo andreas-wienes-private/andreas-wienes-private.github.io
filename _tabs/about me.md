@@ -20,7 +20,7 @@ My name is **Andreas** and I'm a [Hacker]({% post_url 2021-10-13-why-I-call-myse
 
 ### Get in Contact
 📫 You can contact me via
-- Mastodon: <https://infosec.exchange/@HackLikeDemons>
+- Mastodon: <https://infosec.exchange/@AndreasWienes>
 - Mail: mail \[at\] wienes \[dot\] com
 - Twitter: <https://twitter.com/AndreasWienes>
 - LinkedIn: <https://www.linkedin.com/in/andreas-wienes-2b8a23258/>
