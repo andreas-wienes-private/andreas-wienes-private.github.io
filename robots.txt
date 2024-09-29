@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://andreas-wienes-private.github.io/sitemap.xml
